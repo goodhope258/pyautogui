@@ -1,0 +1,74 @@
+ https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-2024.02-1-Windows-x86_64.exe
+
+ anaconda-navigator 2.5.2
+
+(base) C:\Users\Administrator>pip install pyautogui
+Collecting pyautogui
+  Downloading PyAutoGUI-0.9.54.tar.gz (61 kB)
+     ---------------------------------------- 61.2/61.2 kB 69.5 kB/s eta 0:00:00
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting pymsgbox (from pyautogui)
+  Downloading PyMsgBox-1.0.9.tar.gz (18 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting pytweening>=1.0.4 (from pyautogui)
+  Downloading pytweening-1.2.0.tar.gz (171 kB)
+     ---------------------------------------- 171.2/171.2 kB 8.1 kB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting pyscreeze>=0.1.21 (from pyautogui)
+  Downloading PyScreeze-0.1.30.tar.gz (27 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting pygetwindow>=0.0.5 (from pyautogui)
+  Downloading PyGetWindow-0.0.9.tar.gz (9.7 kB)
+  Preparing metadata (setup.py) ... done
+Collecting mouseinfo (from pyautogui)
+  Downloading MouseInfo-0.1.3.tar.gz (10 kB)
+  Preparing metadata (setup.py) ... done
+Collecting pyrect (from pygetwindow>=0.0.5->pyautogui)
+  Downloading PyRect-0.2.0.tar.gz (17 kB)
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: Pillow>=9.3.0 in d:\programdata\anaconda3\lib\site-packages (from pyscreeze>=0.1.21->pyautogui) (10.2.0)
+Collecting pyperclip (from mouseinfo->pyautogui)
+  Downloading pyperclip-1.8.2.tar.gz (20 kB)
+  Preparing metadata (setup.py) ... done
+Building wheels for collected packages: pyautogui, pygetwindow, pyscreeze, pytweening, mouseinfo, pymsgbox, pyperclip, pyrect
+  Building wheel for pyautogui (pyproject.toml) ... done
+  Created wheel for pyautogui: filename=PyAutoGUI-0.9.54-py3-none-any.whl size=37596 sha256=00d2ea7920a687adc0344b3b126f9fd11a4cc6587cd575addbe50cef4c91d5ba
+  Stored in directory: c:\users\administrator\appdata\local\pip\cache\wheels\95\dc\b1\fe122b791e0db8bf439a0e6e1d2628e48f10bf430cae13521b
+  Building wheel for pygetwindow (setup.py) ... done
+  Created wheel for pygetwindow: filename=PyGetWindow-0.0.9-py3-none-any.whl size=11081 sha256=d92c394070d0d7a4558e2a78285bae35fbb1a3cee82d9327f243e319c4cc3a0a
+  Stored in directory: c:\users\administrator\appdata\local\pip\cache\wheels\07\75\0b\7ca0b598eb4c21d43ba4bcc78a0538dfcf803a5997da33bc19
+  Building wheel for pyscreeze (pyproject.toml) ... done
+  Created wheel for pyscreeze: filename=PyScreeze-0.1.30-py3-none-any.whl size=14401 sha256=441e383641bc1d52da8464f8e9318de16f18ca5214319b944f276e78f9f94e4b
+  Stored in directory: c:\users\administrator\appdata\local\pip\cache\wheels\df\bc\15\d685ca085ca4b11e46e54cc3da4e501a98856c7fea8f604500
+  Building wheel for pytweening (setup.py) ... done
+  Created wheel for pytweening: filename=pytweening-1.2.0-py3-none-any.whl size=8030 sha256=6dc0c0ab6a5477cf2ca77d4981ef54ad8bb7a002b72a1e7bd5688bde5e90c9aa
+  Stored in directory: c:\users\administrator\appdata\local\pip\cache\wheels\db\81\dc\0d61a3c9614f288e057ab63924e2a49edbeed4ffc916dcda1e
+  Building wheel for mouseinfo (setup.py) ... done
+  Created wheel for mouseinfo: filename=MouseInfo-0.1.3-py3-none-any.whl size=10903 sha256=cc075f3d931c7a796e9d8c39be1ce2be8f4f58cffd196ca53ece7a16990e54e5
+  Stored in directory: c:\users\administrator\appdata\local\pip\cache\wheels\20\0b\7f\939ac9ff785b09951c706150537572c00123412f260a6024f3
+  Building wheel for pymsgbox (pyproject.toml) ... done
+  Created wheel for pymsgbox: filename=PyMsgBox-1.0.9-py3-none-any.whl size=7417 sha256=c47e8098878a300131de6aa3d90b276a7006992723d823f66fcf1036b66ca66e
+  Stored in directory: c:\users\administrator\appdata\local\pip\cache\wheels\85\92\63\e126ee5f33d8f2ed04f96e43ef5df7270a2f331848752e8662
+  Building wheel for pyperclip (setup.py) ... done
+  Created wheel for pyperclip: filename=pyperclip-1.8.2-py3-none-any.whl size=11136 sha256=34a2897008a7fdf58b92c3146e2e9714b7b10a574046cef7b71239e7305654b7
+  Stored in directory: c:\users\administrator\appdata\local\pip\cache\wheels\70\bd\ba\8ae5c080c895c9360fe6e153acda2dee82527374467eae061b
+  Building wheel for pyrect (setup.py) ... done
+  Created wheel for pyrect: filename=PyRect-0.2.0-py2.py3-none-any.whl size=11205 sha256=36778095c0e0dae1387c9c9e43fe1d00f6dbe704b1e1cc82c787e06fa4a80e49
+  Stored in directory: c:\users\administrator\appdata\local\pip\cache\wheels\c4\e9\fc\b7a666dd4f9a3168fb44d643079b41d36ddab52f470707e820
+Successfully built pyautogui pygetwindow pyscreeze pytweening mouseinfo pymsgbox pyperclip pyrect
+Installing collected packages: pytweening, pyrect, pyperclip, pymsgbox, pyscreeze, pygetwindow, mouseinfo, pyautogui
+Successfully installed mouseinfo-0.1.3 pyautogui-0.9.54 pygetwindow-0.0.9 pymsgbox-1.0.9 pyperclip-1.8.2 pyrect-0.2.0 pyscreeze-0.1.30 pytweening-1.2.0
+
+(base) C:\Users\Administrator>python --version
+Python 3.11.7
+
+(base) C:\Users\Administrator>pip --version
+pip 23.3.1 from D:\ProgramData\anaconda3\Lib\site-packages\pip (python 3.11)
+
+(base) C:\Users\Administrator>
